@@ -1,0 +1,37 @@
+﻿Build started 9/19/2014 9:27:47 PM.
+     1>Project "C:\VS\PageRank\PageRank\PageRank.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\PageRank.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt pagerank.cpp
+         pagerank.cpp
+     1>c:\vs\pagerank\pagerank\pagerank.cpp(34): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\vs\pagerank\pagerank\pagerank.cpp(37): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\vs\pagerank\pagerank\pagerank.cpp(41): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\vs\pagerank\pagerank\pagerank.cpp(55): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\vs\pagerank\pagerank\pagerank.cpp(56): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\vs\pagerank\pagerank\pagerank.cpp(58): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\vs\pagerank\pagerank\pagerank.cpp(87): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\vs\pagerank\pagerank\pagerank.cpp(170): warning C4101: 'fi' : unreferenced local variable
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\VS\PageRank\Debug\PageRank.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\PageRank.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\VS\PageRank\Debug\PageRank.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\VS\PageRank\Debug\PageRank.lib" /MACHINE:X86 Debug\PageRank.exe.embed.manifest.res
+         Debug\pagerank.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\PageRank.exe.embed.manifest" /manifest Debug\PageRank.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         PageRank.vcxproj -> C:\VS\PageRank\Debug\PageRank.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\PageRank.unsuccessfulbuild".
+         Touching "Debug\PageRank.lastbuildstate".
+     1>Done Building Project "C:\VS\PageRank\PageRank\PageRank.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.18
